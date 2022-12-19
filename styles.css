@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fondo-index {
+    background-image: url(assets/img/radiohead-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	height:20rem;
+	max-width: 100%;
+	position: relative
+}
+
+#fondo-discography {
+    background-image: url(assets/img/dibujo-radiohead-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: top;
+	height:20rem;
+	max-width: 100%;
+	position: relative
+}
+
+.footer-image {
+    background-image: url(assets/img/amnesiac-wallpaper.jpg);
+    background-size: cover;
+	background-position: bottom;
+	height:20rem;
+	max-width: 100%;
+}
+
+.color {
+    color: red;
+}
+
+#footer-font {
+    color: white;
+}
