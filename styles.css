@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+.div-box {
+    border: solid 1px black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+
 .fondo-index {
     background-image: url(assets/img/radiohead-fondo.jpg);
     background-repeat: no-repeat;
@@ -38,3 +49,28 @@
 #footer-font {
     color: white;
 }
+
+ul {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+   }
+
+li {
+    display: inline-block;
+    width: 30; /*para que se separen las letras*/
+    position:relative;
+    font-size: 15px
+   }
+
+ul ul {
+    position: absolute;
+    display: none;
+   }
+
+ul ul li {
+    display: block;
+   }
+
+ul li:hover ul {
+    display:block;
+   }
