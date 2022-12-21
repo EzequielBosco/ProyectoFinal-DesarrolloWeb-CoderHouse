@@ -13,6 +13,25 @@ nav {
     background: white;
 }
 
+hr {
+    height: 80px;
+    background:url(assets/img/logoseparador.png) no-repeat center;
+    border: none;
+}
+
+h1 {
+    color: red;
+    display: inline-block;
+}
+
+.color-white {
+    color: white
+}
+
+.color-black {
+    color: black
+}
+
 .div-box {
     border: solid 1px black;
     padding: 5px;
@@ -24,14 +43,12 @@ nav {
     overflow: hidden;
 }
 
-.fondo-index {
-    background-image: url(assets/img/radiohead_wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-	background-position: center;
-	height:20rem;
-	max-width: 100%;
-	position: relative
+.div-box-img {
+    border: solid 1px white;
+    display: inline-block;
+    padding: 5px 5px;
+    width: 700px;
+    height: 400px;
 }
 
 #fondo-discography {
@@ -44,25 +61,22 @@ nav {
 	position: relative
 }
 
-.footer-image {
-    background-image: url(assets/img/amnesiac-wallpaper.jpg);
-    background-size: cover;
-	background-position: bottom;
-	height:20rem;
-	max-width: 100%;
-}
 
-.color {
-    color: red;
-}
-
-#footer-font {
+.first-button:hover {
+    background: black;
     color: white;
+}
+
+.fondo-index {
+    background-image: url(assets/img/radiohead_wallpaper.jpg);
+    max-width: 100%;
+    background-size: cover;
 }
 
 ul {
     list-style: none;
-    font-size:0 /* truco por el uso de inline-block*/
+    font-size:0 /* truco por el uso de inline-block*/;
+    display: inline-block;
    }
 
 li {
@@ -85,17 +99,31 @@ ul li:hover ul {
     display:block;
    }
 
-i {
-    color: white;
-}
-
 button {
     font-family: 'Nunito';
     background: white;
     color: black;
+    font-size: 2, 6rem;
+    border: 2px solid #fff;
+    border-radius: 50px;
 }
 
-.first-button:hover {
-    background: black;
-    color: white;
+footer {
+    color: white
+}
+
+i {
+    color: white
+}
+
+#i-black {
+    color: black;
+}
+
+.footer-image {
+    background-image: url(assets/img/amnesiac-wallpaper.jpg);
+    background-size: cover;
+	background-position: bottom;
+	height:20rem;
+	max-width: 100%;
 }
