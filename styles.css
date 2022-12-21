@@ -8,6 +8,11 @@ body {
     font-family: 'Nunito';
 }
 
+nav {
+    height: 55px;
+    background: white;
+}
+
 .div-box {
     border: solid 1px black;
     padding: 5px;
@@ -20,7 +25,7 @@ body {
 }
 
 .fondo-index {
-    background-image: url(assets/img/radiohead-fondo.jpg);
+    background-image: url(assets/img/radiohead_wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 	background-position: center;
