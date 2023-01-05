@@ -8,19 +8,25 @@ body {
     font-family: 'Nunito';
 }
 
+#main{
+ display: flex;
+ flex: 1;
+}
+
 nav {
-    height: 55px;
+    height: 4rem;
     background: white;
 }
 
 hr {
-    height: 80px;
+    height: 5rem;
     background:url(assets/img/logoseparador.png) no-repeat center;
     border: none;
+    margin: 1rem;
 }
 
 h1 {
-    color: red;
+    color: rgba(236, 11, 11, 0.973);
     display: inline-block;
 }
 
@@ -68,52 +74,56 @@ h1 {
 }
 
 .fondo-index {
-    background-image: url(assets/img/radiohead_wallpaper.jpg);
+    background-image: url(assets/img/radiohead_1_wallpaper.jpg);
     max-width: 100%;
     background-size: cover;
+    height: 32rem;
 }
 
 ul {
     list-style: none;
-    font-size:0 /* truco por el uso de inline-block*/;
-    display: inline-block;
-   }
+    font-size: 1.2rem;
+}
 
 li {
-    display: inline-block;
-    width: 30; /*para que se separen las letras*/
+    width: 30;
     position:relative;
-    font-size: 15px
-   }
+    font-size: 1.2rem
+}
 
 ul ul {
     position: absolute;
     display: none;
-   }
+}
 
 ul ul li {
     display: block;
-   }
+}
 
 ul li:hover ul {
     display:block;
-   }
+}
 
 button {
     font-family: 'Nunito';
     background: white;
     color: black;
-    font-size: 2, 6rem;
-    border: 2px solid #fff;
-    border-radius: 50px;
+    font-size: 1.5rem;
+    border: 0.1rem solid #fff;
+    border-radius: 1rem;
 }
 
 footer {
-    color: white
+    color: white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    margin-top: 5rem;
 }
 
 i {
-    color: white
+    color: white;
+    font-size: 1.4rem;
 }
 
 #i-black {
@@ -121,9 +131,54 @@ i {
 }
 
 .footer-image {
-    background-image: url(assets/img/amnesiac-wallpaper.jpg);
+    background-image: url(assets/img/amnesiac-1-wallpaper.jpg);
     background-size: cover;
 	background-position: bottom;
-	height:20rem;
+	height:12rem;
 	max-width: 100%;
+}
+
+#margin-header {
+    margin-top: 28rem;
+    margin-bottom: 5rem;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}   
+
+.flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}   
+
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.padding-icons-nav {
+    padding-left: 22rem;
+}
+
+.flex-footer-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+fieldset {
+    width:45rem;
+    height:5rem;
+    color:#000000;
+    font-size:1rem;
+    padding-top:1rem;
+    margin-bottom: 2rem;
 }
