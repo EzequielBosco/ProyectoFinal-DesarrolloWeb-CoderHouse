@@ -88,13 +88,13 @@ h3 {
 
 ul {
     list-style: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 li {
     width: 30;
     position:relative;
-    font-size: 1.1rem
+    font-size: 1rem
 }
 
 ul ul {
@@ -178,7 +178,7 @@ i {
 }
 
 .padding-icons-nav {
-    padding-left: 28rem;
+    padding-left: 26rem;
 }
 
 .margin-logo-nav {
@@ -199,13 +199,21 @@ i {
     justify-content: space-around;
 }
 
+#icon-size {
+    font-size: 1.6rem;
+}
+
 fieldset {
     width:45rem;
     height:5rem;
     color:rgb(0, 0, 0);
-    font-size:1rem;
+    font-size:1.1rem;
     padding-top: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+legend {
+    margin-left: 17.5rem;
 }
 
 .title-index {
@@ -229,3 +237,8 @@ iframe {
     width: 30rem;
     height: 9.5rem;
 }
+
+.grid {
+    display: grid; 
+
+   }
