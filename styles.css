@@ -328,7 +328,7 @@ RESPONSIVE
         "section section section"
         "section section section"
         "footer footer footer";
-        grid-template-rows: 2.2rem 20rem 3rem 32rem 15rem 10rem; 
+        grid-template-rows: 2.2rem 20rem 3rem 30rem 15rem 10rem; 
         grid-template-columns: auto 15rem auto;
         grid-column-gap: 0.5rem;
         grid-row-gap: 0;
@@ -406,6 +406,22 @@ RESPONSIVE
 
     #margin-title {
         margin-top: 48rem;
+    }
+
+    footer {
+        padding-bottom: 1rem;
+    }
+
+    .footer-image {
+        height:13rem;
+        background-size: initial;
+        background-position: left;
+        height:11rem;
+        max-width: 100%;
+    }
+
+    p {
+        font-size: 0.9rem;
     }
 }
 
