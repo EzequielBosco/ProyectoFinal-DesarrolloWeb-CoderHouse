@@ -76,17 +76,25 @@ h3 {
 	position: relative
 }
 
-
 .first-button:hover {
     background: black;
     color: white;
+    cursor: pointer;
+    animation-name: efecto-button;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
 }
 
 .fondo-index {
     background-image: url(assets/img/radiohead_2_wallpaper.jpg);
     background-size: cover;
     max-width: 100%;
-    height: auto
+    height: auto;
+    animation-name: efecto-fondo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
 }
 
 ul {
@@ -351,12 +359,14 @@ RESPONSIVE
     }
 
     .box-nav {
+        height: 3rem;
+        width: 3.4rem;
         margin-left: 2rem;
-        margin-top: 10rem;   
+        margin-top: 9.5rem;   
     }
 
     .flex-footer-links {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     #margin-header {
@@ -428,4 +438,14 @@ RESPONSIVE
 @media screen and (max-width: 767px) {
     h1 {
     }
+}
+
+@keyframes efecto-button {
+    0% {color:#ff192c}
+    100% {color:white}
+}
+
+@keyframes efecto-fondo {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
