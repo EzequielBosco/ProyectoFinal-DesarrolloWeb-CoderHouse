@@ -32,6 +32,10 @@ h3 {
     font-size: 1rem;
 }
 
+h3:hover {
+    font-size: 1.05rem;
+}
+
 .color-white {
     color: white
 }
@@ -145,11 +149,24 @@ i {
     font-size: 1.4rem;
 }
 
+i:hover {
+    font-size: 1.5rem;
+}
+
+footer i {
+    color: black;
+    font-size: 1.8rem;
+}
+
+footer i:hover {
+    font-size: 1.9rem;
+}
+
 .footer-image {
     background-image: url(assets/img/amnesiac-1-wallpaper.jpg);
     background-size: cover;
 	background-position: bottom;
-	height:12rem;
+	height:16rem;
 	max-width: 100%;
 }
 
@@ -183,6 +200,14 @@ i {
     padding-right: 1rem;
 }
 
+.flex-nav-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+}
+
 .nav-position {
     position: sticky; top: 0;
 }
@@ -201,7 +226,11 @@ i {
 }
 
 .padding-icons-nav {
-    padding-left: 26rem;
+    padding-right: 7rem;
+}
+
+.padding-icons-footer {
+    padding-left: 8rem;
 }
 
 .flex-title-nav {
@@ -215,17 +244,13 @@ i {
 .flex-footer-icon {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-
-.margin-logo {
-    margin-top: 0.3rem;
+    justify-content:space-around;
 }
 
 .flex-footer-links {
-    display: flex;
-    flex-direction: column;
-    color:black;
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
 }
 
 #icon-size {
@@ -320,6 +345,14 @@ RESPONSIVE
         font-size: 0.9rem;
     }
 
+    h3:hover {
+        font-size: 0.95rem;
+    }
+
+    h4 {
+        font-size: 0.85rem;
+    }
+
     hr {
         height: 3rem;
         background:url(assets/img/logoseparador1.png) no-repeat center;
@@ -343,14 +376,24 @@ RESPONSIVE
     }
 
     .padding-icons-nav {
-        padding-left: 0;
+        padding-left: 6rem;
     }
 
     .flex-end {
         justify-content: none;
     }
 
+    .flex-nav-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 3rem;
+        padding-top: 0.7rem;
+    }
+
     i {
+        padding-left: 1rem;
         font-size: 1;
     }
 
@@ -366,7 +409,9 @@ RESPONSIVE
     }
 
     .flex-footer-links {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+        padding-top: 0.5rem;
+        padding-left: 0.45rem;
     }
 
     #margin-header {
@@ -423,11 +468,26 @@ RESPONSIVE
     }
 
     .footer-image {
-        height:13rem;
-        background-size: initial;
-        background-position: left;
-        height:11rem;
+        height:15rem;
         max-width: 100%;
+    }
+
+    i {
+        color: black;
+        font-size: 1.3rem;
+    }
+    
+    i:hover {
+        font-size: 1.4rem;
+    }
+
+    footer i {
+        color: black;
+        font-size: 1.5rem;
+    }
+    
+    footer i:hover {
+        font-size: 1.6rem;
     }
 
     p {
