@@ -147,7 +147,7 @@ footer {
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 5rem;
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 i {
@@ -238,10 +238,6 @@ footer i:hover {
     font-size: 1.6rem;
 }
 
-#margin-title {
-    margin-left: 2.5rem;
-}
-
 fieldset {
     width:45rem;
     height:5rem;
@@ -326,7 +322,7 @@ RESPONSIVE
     }
 
     h4 {
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
 
     hr {
@@ -383,6 +379,11 @@ RESPONSIVE
         height: 24rem;
     }
 
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
     #margin-title {
         margin-left: 31.4rem;
@@ -397,8 +398,7 @@ RESPONSIVE
     }
 
     footer {
-        margin-top: rem;
-        padding-bottom: 1rem;
+        margin-top: 13rem;
     }
 
     .footer-image {
