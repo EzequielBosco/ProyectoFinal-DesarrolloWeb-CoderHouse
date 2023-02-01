@@ -8,6 +8,10 @@ body {
     font-family: 'Nunito';
 }
 
+.container-fluid {
+    margin: 0;
+}
+
 nav {
     height: 3.2rem;
     background: white;
@@ -17,7 +21,7 @@ hr {
     height: 5rem;
     background:url(assets/img/logoseparador.png) no-repeat center;
     border: none;
-    margin: 1.5rem;
+    margin-top: 2.6rem;
 }
 
 h1 {
@@ -80,6 +84,12 @@ h3:hover {
 	position: relative
 }
 
+.button-container{
+    text-align: center;
+    position: relative;
+    bottom: 2.5rem;
+}
+
 .first-button:hover {
     background: black;
     color: white;
@@ -91,10 +101,6 @@ h3:hover {
 }
 
 .fondo-index {
-    background-image: url(assets/img/radiohead_2_wallpaper.jpg);
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
     animation-name: efecto-fondo;
     animation-duration: 2s;
     animation-iteration-count: 1;
@@ -170,11 +176,6 @@ footer i:hover {
 	max-width: 100%;
 }
 
-#margin-header {
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-}
-
 .flex-center {
     display: flex;
     flex-direction: row;
@@ -208,23 +209,6 @@ footer i:hover {
     padding-right: 1rem;
 }
 
-.nav-position {
-    position: sticky; top: 0;
-}
-
-.box-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 3.5rem;
-    width: 4rem;
-    border-radius: 2rem;
-    background-color: white;
-    margin-left: 6rem;
-    margin-top: 16rem;
-}
-
 .padding-icons-nav {
     padding-right: 7rem;
 }
@@ -245,16 +229,21 @@ footer i:hover {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
-.flex-footer-links {
-    font-size: 0.9rem;
-    padding-top: 0.3rem;
-    padding-left: 0.5rem;
+#padding-icon {
+    margin-left: 25rem;
+    margin-right: 25rem;
 }
 
 #icon-size {
     font-size: 1.6rem;
+}
+
+#margin-title {
+    margin-left: 2.5rem;
 }
 
 fieldset {
@@ -270,17 +259,8 @@ legend {
     margin-left: 17.5rem;
 }
 
-.title-index {
-    padding-left: 2.6rem;
-    padding-right: 2.6rem;
-}
-
 #margin-title-index {
     margin-top: 49rem;
-}
-
-.title-flex-end {
-    justify-content: flex-end;
 }
 
 iframe {
@@ -357,7 +337,8 @@ RESPONSIVE
         height: 3rem;
         background:url(assets/img/logoseparador1.png) no-repeat center;
         border: none;
-        margin-top: 2rem;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
     }
 
     .grilla-index {
@@ -375,23 +356,6 @@ RESPONSIVE
         grid-row-gap: 0;
     }
 
-    .padding-icons-nav {
-        padding-left: 6rem;
-    }
-
-    .flex-end {
-        justify-content: none;
-    }
-
-    .flex-nav-1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-right: 3rem;
-        padding-top: 0.7rem;
-    }
-
     i {
         padding-left: 1rem;
         font-size: 1;
@@ -401,52 +365,13 @@ RESPONSIVE
         font-size: 0.8rem;
     }
 
-    .box-nav {
-        height: 3rem;
-        width: 3.4rem;
-        margin-left: 2rem;
-        margin-top: 9.5rem;   
-    }
-
     .flex-footer-links {
         font-size: 0.6rem;
         padding-top: 0.5rem;
-        padding-left: 0.45rem;
-    }
-
-    #margin-header {
-        margin-top: 5rem;
-        margin-bottom: 2rem;
     }
 
     button {
         font-size: 1.3rem;
-    }
-
-    #icon-size {
-        font-size: 1.3rem;
-    }
-
-    fieldset {
-        width:35rem;
-        height:5rem;
-        color:rgb(0, 0, 0);
-        font-size:1.1rem;
-        padding-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-    
-    legend {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-left: 0.9rem;
-    }
-
-    .title-index {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
     }
 
     .div-box-img {
@@ -455,15 +380,21 @@ RESPONSIVE
         height: 24rem;
     }
 
+    
+    #margin-title {
+        margin-left: 31.4rem;
+    }
+
     .p-box{
         padding-top: 25rem;
     }
 
-    #margin-title {
-        margin-top: 48rem;
+    section {
+        margin-top: 12rem;
     }
 
     footer {
+        margin-top: rem;
         padding-bottom: 1rem;
     }
 
@@ -492,11 +423,6 @@ RESPONSIVE
 
     p {
         font-size: 0.9rem;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    h1 {
     }
 }
 

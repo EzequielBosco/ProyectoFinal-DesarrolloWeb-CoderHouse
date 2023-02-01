@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="grilla-index">
-        <nav class="flex-nav nav-position">
+        <nav class="flex-nav sticky-top">
             <div>
                 <a href="index.html"><img width="62" height="58" src="assets/img/logo-blanco.png" alt="logo"></a>
             </div>
@@ -34,11 +34,16 @@
                 <ul class="nav flex-end">
                     <a href="index.html"><h3>HOME &nbsp;</h3></a>
                     <a href="discography.html"><h3>DISCOGRAPHY &nbsp;</h3></a>
-                    <a href="history.html"><li><h3>HISTORY</h3>
-                        <ul>
-                            <a href="members.html"><h3>MEMBERS</h3></a>
+                    <li><a class="dropdown-toggle" role="button" data-bs-toggle="dropdown"><h3>BAND</h3></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="members.html"><h3>MEMBERS</h3></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="history.html"><h3>HISTORY</h3></a>
+                            </li>
                         </ul>
-                    </li></a>
+                    </li>
                     <a href="tour.html"><h3>&nbsp;&nbsp;TOUR &nbsp;</h3></a>
                     <a href="gallery.html"><h3>GALLERY &nbsp;</h3></a>
                     <a href="contact.html"><h3>CONTACT</h3></a>
@@ -46,53 +51,38 @@
             </div>
         </nav>
         <header class="fondo-index">
-            <div>
-                <div class="box-nav">
-                    <div class="flex-footer-links">
-                        <a href="#band"><h3>BAND</h3></a>
-                        <a href="#news"><h3>NEWS</h3></a>
-                    </div>
-                </div>
-                <div class="flex-center">
-                    <a href="members.html" id="margin-header">
-                        <button class="first-button">About us</button>
-                    </a>
-                </div>     
+            <div class="row col-lg-12">
+                <img src="assets/img/radiohead_2_wallpaper.jpg" alt="logo-fondo">
             </div>
+            <div class="button-container">
+                <a href="members.html">
+                    <button class="first-button">About us</button>
+                </a>
+            </div>    
         </header>
         <hr>
         <section>
-            <a name="band"><h1 class="title-index">BAND</h1></a>
-            <div class="flex-center">
+            <a name="band"><h1 class="container" id="margin-title">BAND</h1></a>
+            <div class="row justify-content-center">
                 <div class="div-box-img">
                     <p class="color-white p-box">Of all the alt-rock bands of the 90s, Radiohead is the band that doesn’t fit in any category. Art rock might be a label better suited for a band that always felt like the refined outsider of modern rock.
-
                         This Radiohead band history contains all your need to know about this innovative quintet, from the early guitar-driven days to pioneering electronic-infused rock.
-                        
                         When I first heard Radiohead “Creep” on the radio, I thought: “oh, that’s some weird-sounding classy grunge.” I couldn’t be more wrong about defining the band by only one song, the one that probably sounds less like Radiohead than every future Radiohead song.
-                        
                         I truly understood and enjoyed Radiohead years after art-rock classics such as Pink Floyd had changed my perspective on music.
-                        
                         It’s no surprise that the long misunderstood and underrated band of young college friends would rise to fame in the most non-commercial route possible and do things their own unique way.</p>   
                 </div>       
             </div>
         </section>
         <hr>
-        <section class="flex-end">
-            <a name="news"><h1 class="title-index" id="margin-title-index">NEWS</h1></a>
-            <div class="flex-center">
-            </div>
-        </section>
         <footer class="footer-image">
-            <h2>RADIOHEAD</h2>
-                <h4 class="color-black flex-center">- SOCIAL MEDIA -</h4> 
-                <div class="flex-footer-icon">
-                    <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-                    <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                </div>
+            <h4 class="color-black flex-center">- SOCIAL MEDIA -</h4> 
+            <div class="flex-footer-icon" id="padding-icon">
+                <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
             <br>
             <p>Copyright 2022 | RadioHead. All Rights Reserved. Designed by Ezequiel Bosco.</p>
         </footer>
