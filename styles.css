@@ -285,6 +285,10 @@ nav {
 
 header {
     grid-area: header;
+    animation-name: efecto-fondo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
 }
 
 hr {
@@ -483,6 +487,10 @@ web 2
     border-radius: 5px;
     box-shadow: -1rem 0 1.2rem rgb(238, 52, 39);
     transition: 0.3s ease-out;
+  }
+
+  a {
+    cursor: pointer;
   }
   
   .card:hover {
