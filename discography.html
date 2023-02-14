@@ -15,12 +15,12 @@
 </head>
 <body>
     <div class="grilla-1">
-        <nav class="flex-nav sticky-top">
-            <div>
-                <a href="index.html"><img width="62" height="58" src="assets/img/logo-blanco.png" alt="logo"></a>
-            </div>
-            <div class="flex-nav-1 flex-column-nav container-fluid">
-                <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark bg-black sticky-top">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <a href="index.html"><img width="52" height="47.5" src="assets/img/logo-blanco.png" alt="logo"></a>
+                </div>
+                <div>
                     <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     &nbsp;
                     <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -31,40 +31,43 @@
                     &nbsp;
                     <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 </div>
-                <div class="container-fluid">
-                <ul class="nav justify-content-end">
-                    <a href="index.html"><h3>HOME &nbsp;</h3></a>
-                    <a href="discography.html"><h3>DISCOGRAPHY &nbsp;</h3></a>
-                    <li><a class="dropdown-toggle" role="button" data-bs-toggle="dropdown"><h3>BAND</h3></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="members.html"><h3>MEMBERS</h3></a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="history.html"><h3>HISTORY</h3></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <a href="tour.html"><h3>&nbsp;&nbsp;TOUR &nbsp;</h3></a>
-                    <a href="gallery.html"><h3>GALLERY &nbsp;</h3></a>
-                    <a href="contact.html"><h3>CONTACT</h3></a>
-                </ul>
-            </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="discography.html">DISCOGRAPHY</a></li>
+                        <li class="nav-item"><a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown">BAND</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="members.html">MEMBERS</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="history.html">HISTORY</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="tour.html">TOUR</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="gallery.html">GALLERY</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <header>
             <div class="container text-center" id="margin-title-1">
-                <h1 id="font-title"><strong>DISCOGRAPHY</strong></h1>
+                <h1><strong>DISCOGRAPHY</strong></h1>
             </div>
             <div class="text-center">
                 <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank">
-                    <button class="first-button">Listen to us</button>
+                    <button class="button-anim">Listen to us</button>
                 </a>
             </div>   
         </header>
         <hr>
         <section class="text-center">
-            <h1 id="margin-title-2">ALBUMS</h1>
+            <h2 id="margin-title-2">ALBUMS</h2>
             <div class="container text-center" id="margin-section-d">
                 <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-5">
                     <div class="col">
@@ -202,7 +205,7 @@
                 </div>
             </div>
             <div class="container text-center" id="margin-title-1">
-                <h1>SONGS</h1>
+                <h2>SONGS</h2>
                 <div class="container-fluid">
                     <div>
                         <iframe class="iframe-index" src="https://embed.spotify.com/?uri=spotify:artist:4Z8W4fKeB5YxbusRsdQVPb" title="Spotify"></iframe>

@@ -1,0 +1,98 @@
+.grilla-1 {
+    display: grid;
+    grid-template-areas:
+    "nav nav nav"
+    "header header header"
+    "hr hr hr"
+    "section section section"
+    "section section section"
+    "footer footer footer";
+    grid-template-rows: 3.2rem 7rem 4.5rem 40rem 24rem 15rem; 
+    grid-template-columns: auto 50rem auto;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0;
+}
+
+#margin-title-1 {
+    margin-top: 1.6rem;
+}
+
+#margin-title-2 {
+    margin-bottom: 2rem;
+}
+
+#margin-footer {
+    margin-top: 30rem;
+}
+
+.card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -1rem 0 1.2rem rgb(238, 52, 39);
+    transition: 0.3s ease-out;
+  }
+
+  a {
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s ease-out;
+  }
+  
+  svg {
+    fill: none;
+    stroke-width: 2px;
+  }
+
+  
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.4s ease-out;
+  }
+  
+  
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 60px);
+  }
+
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
+
+@media screen and (min-width: 769px) and (max-width: 992px) {  
+  #margin-footer {
+    margin-top: 48rem;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {  
+  #margin-footer {
+      margin-top: 95rem;
+  }
+  .grilla-1 {
+    grid-template-rows: 3.2rem 6rem 4.5rem 40rem 24rem 15rem; 
+  }
+}
+
+@media screen and (max-width: 576px) {  
+
+  #margin-footer {
+    margin-top: 95rem;
+  }
+
+  #margin-section-d {
+    padding-left: 15rem;
+  }
+}

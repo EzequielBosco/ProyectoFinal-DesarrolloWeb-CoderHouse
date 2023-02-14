@@ -5,91 +5,288 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RadioHead</title>
-    <link rel="stylesheet" href="styles.css"/>
     <script src="https://kit.fontawesome.com/55eb138f8c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
-    <header class="nav-position">
-        <nav class="flex-nav">
-            <div class="margin-logo-nav">
-                <a href="index.html"><img width="55" height="55" src="assets/img/logo-blanco.png" alt="logo"></a>
+    <div class="grilla-2">
+        <nav class="navbar navbar-expand-md navbar-dark bg-black sticky-top">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <a href="index.html"><img width="52" height="47.5" src="assets/img/logo-blanco.png" alt="logo"></a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    &nbsp;
+                    <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    &nbsp;
+                    <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    &nbsp;
+                    <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                    &nbsp;
+                    <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="discography.html">DISCOGRAPHY</a></li>
+                        <li class="nav-item"><a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown">BAND</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="members.html">MEMBERS</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="history.html">HISTORY</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="tour.html">TOUR</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="gallery.html">GALLERY</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="padding-icons-nav">
+        </nav>
+        <header>
+            <div class="box-carousel">
+            <div id="carouselExampleCaptions margin-title-1" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/img/tom-wallpaper.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>Thom Yorke</h2>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>Colin Greenwood</h2>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>Phil Selway</h2>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>Jonny Greenwood</h2>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>Ed O'Brien</h2>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="container text-center" id="margin-title-1">
+                <h1 id="font-title"><strong>MEMBERS</strong></h1>
+            </div>
+        </header>
+        <hr>
+        <section>
+            <div class="container text-center" id="margin-section-d">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-5">
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/6ofEQubaL265rIW6WnCU8y" target="_blank">
+                                <img src="assets/img/Kid_A_Mnesia.jpeg" alt="kidamnesia" style="width:100%">
+                            </a>
+                                <div class="container">
+                                    <h4><b>Kid A Mnesia</b></h4>
+                                    <p>2021</p>
+                                </div>
+                        </div>
+                    </div>    
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/0tzfI6NFJqcJkWb23R3lRZ" target="_blank">
+                                <img src="assets/img/okcomputer2017.jpg" alt="okcomputer2017" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h4><b>Ok Computer</b></h4>
+                                <p>2017</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg" target="_blank">
+                                <img src="assets/img/amoon.jpg" alt="amoonshapepool" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h5><b>Moon Shaped Pool</b></h5>
+                                <p>2016</p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/3P17levwUPzmFfLYdAK3A7" target="_blank">
+                                <img src="assets/img/Radioheadthekingoflimbs.png" alt="thekingoflimbs" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h5><b>The King Of Limbs</b></h5>
+                                <p>2011</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK" target="_blank">
+                                <img src="assets/img/inrainbows.jpg" alt="inrainbows" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h4><b>In Rainbows</b></h4>
+                                <p>2007</p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/5mzoI3VH0ZWk1pLFR6RoYy" target="_blank">
+                                <img src="assets/img/Radioheadhailtothethief.png" alt="hailtothethief" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h5><b>Hail To The Thief</b></h5>
+                                <p>2003</p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/1vdQ5t7iO2gC3OX7j2GFCt" target="_blank">
+                                <img src="assets/img/imightbewrong.jpg" alt="imightbewrong" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h5><b>I Might Be Wrong</b></h5>
+                                <p>2001</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/1HrMmB5useeZ0F5lHrMvl0" target="_blank">
+                                <img src="assets/img/Amnesiac.png" alt="amnesiac" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h4><b>Amnesiac</b></h4>
+                                <p>2001</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7" target="_blank">
+                                <img src="assets/img/kida.jpg" alt="kida" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h4><b>Kid A</b></h4>
+                                <p>2000</p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE" target="_blank">
+                                <img src="assets/img/ok-computer.jpg" alt="okcomputer" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h4><b>Ok Computer</b></h4>
+                                <p>1997</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/35UJLpClj5EDrhpNIi4DFg" target="_blank">
+                                <img src="assets/img/bends.jpg" alt="thebends" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h4><b>The Bends</b></h4>
+                                <p>1995</p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col">
+                        <div class="card">
+                            <a href="https://open.spotify.com/album/3gBVdu4a1MMJVMy6vwPEb8" target="_blank">
+                                <img src="assets/img/pablohoney.jpg" alt="pablohoney" style="width:100%">
+                            </a>
+                            <div class="container">
+                                <h4><b>Pablo Honey</b></h4>
+                                <p>1993</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="container text-center" id="margin-title-1">
+                <section>
+                    <h1 class="title-index">RADIOHEAD</h1>
+                    <div class="flex-center">
+                        <div class="div-box-img">
+                            <p class="color-white"></p>
+                            <p class="color-white"></p>
+                            <p class="color-white"></p>
+                            <p class="color-white"></p>
+                            <p class="color-white"></p> 
+                            <img src="assets/img/1-tom.png" alt="tom" height="200px" width="200px">
+                            <img src="assets/img/2-a.png" alt="2" height="200px" width="200px">
+                        </div>   
+                    </div>
+                </section>
+                <section class="flex-title-nav">
+                    <h1 class="flex-center">RELATED ARTISTS</h1>    
+                    <div class="div-box-img">
+                        <p class="color-white">Nirvana</p>
+                        <p class="color-white">Green day</p>
+                        <p class="color-white">Artic Monkeys</p>
+                        <img src="assets/img/nirvana-1497436642.0.430x241.jpg" alt="nirvana" height="200px" width="400px">
+                        <img src="assets/img/green-day-1495453847.55.430x241.jpg" alt="green-day" height="200px" width="400px">
+                    </div>   
+                </section>
+            </div>
+        </section>
+        <footer class="footer-image" id="margin-footer">
+            <h4 class="color-black row justify-content-center">- SOCIAL MEDIA -</h4> 
+            <div class="flex-footer-icon" id="padding-icon">
                 <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                &nbsp;
                 <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                &nbsp;
                 <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                &nbsp;
                 <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-                &nbsp;
                 <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
-            <ul class="flex-end">
-                <a href="index.html"><li>HOME &nbsp;</li></a>
-                <a href="discography.html"><li>DISCOGRAPHY &nbsp;</li></a>
-                <a href="history.html"><li>HISTORY &nbsp;
-                    <ul>
-                        <a href="members.html"><li>MEMBERS</li></a>
-                    </ul>
-                </li></a>
-                <a href="tour.html"><li>TOUR &nbsp;</li></a>
-                <a href="gallery.html"><li>GALLERY &nbsp;</li></a>
-                <a href="contact.html"><li>CONTACT</li></a>
-            </ul>
-        </nav>
-    </header>
-    <section class="flex-title-nav">
-            <h1 class="flex-center">MEMBERS</h1>    
-    </section>
-    <hr>
-    <br>
-    <section>
-        <h1 class="title-index">RADIOHEAD</h1>
-        <div class="flex-center">
-            <div class="div-box-img">
-                <p class="color-white">Thom Yorke</p>
-                <p class="color-white">Colin Greenwood</p>
-                <p class="color-white">Phil Selway</p>
-                <p class="color-white">Jonny Greenwood</p>
-                <p class="color-white">Ed O'Brien</p> 
-                <img src="assets/img/1-tom.png" alt="tom" height="200px" width="200px">
-                <img src="assets/img/2-a.png" alt="2" height="200px" width="200px">
-            </div>   
-        </div>
-    </section>
-    <br>
-    <hr class="margin-hr">
-    <br>
-    <section class="flex-title-nav">
-        <h1 class="flex-center">RELATED ARTISTS</h1>    
-        <div class="div-box-img">
-            <p class="color-white">Nirvana</p>
-            <p class="color-white">Green day</p>
-            <p class="color-white">Artic Monkeys</p>
-            <img src="assets/img/nirvana-1497436642.0.430x241.jpg" alt="nirvana" height="200px" width="400px">
-            <img src="assets/img/green-day-1495453847.55.430x241.jpg" alt="green-day" height="200px" width="400px">
-        </div>   
-    </section>
-    <br>
-    <hr class="margin-hr">
-    <br>
-    <footer class="footer-image">
-        <div>
-            <h3 class="color-white">RADIOHEAD</h3>
-            <fieldset class="flex-footer-icon">
-                <legend><h4>SOCIAL MEDIA</h4></legend> 
-                    <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram" id="icon-size"></i></a>
-                    <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook" id="icon-size"></i></a>
-                    <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter" id="icon-size"></i></a>
-                    <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify" id="icon-size"></i></a>
-                    <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube" id="icon-size"></i></a>
-            </fieldset> 
-        </div>
-        <p>Copyright 2022 | RadioHead. All Rights Reserved. Designed by Ezequiel Bosco.</p>
-    </footer>
+            <br>
+            <p>Copyright 2022 | RadioHead. All Rights Reserved. Designed by Ezequiel Bosco.</p>
+        </footer>
+    </div>
 </body>
 </html>

@@ -8,36 +8,31 @@ body {
     font-family: 'Nunito';
 }
 
-.container-fluid {
-    margin: 0;
-}
-
 nav {
     height: 3.2rem;
     background: white;
+    border-bottom: 1.8px solid white;
 }
 
 hr {
     height: 5rem;
-    background:url(assets/img/logoseparador.png) no-repeat center;
+    background:url(../assets/img/logoseparador.png) no-repeat center;
     border: none;
-    margin-top: 2.6rem;
+    margin-top: 2rem;
 }
 
 h1 {
-    font-size: 2.5rem;
-    display: inline-block;
+    font-size: 2.3rem;
+    color: #ff192c;
+}
+
+h2 {
+    font-size: 2rem;
     color: #ff192c;
 }
 
 h3 {
-    color: rgba(0, 0, 0, 0.973);
-    display: inline-block;
     font-size: 1rem;
-}
-
-h3:hover {
-    font-size: 1.05rem;
 }
 
 .color-white {
@@ -60,7 +55,7 @@ h3:hover {
 }
 
 .div-box-img {
-    background-image: url(assets/img/integrantes-2-wallpaper.jpg);
+    background-image: url(../assets/img/integrantes-2-wallpaper.jpg);
     background-size: cover;
     border: solid 1px white;
     padding: 0.2rem 0.2rem;
@@ -75,7 +70,7 @@ h3:hover {
 }
 
 #fondo-discography {
-    background-image: url(assets/img/dibujo-radiohead-wallpaper.jpg);
+    background-image: url(../assets/img/dibujo-radiohead-wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 	background-position: top;
@@ -90,7 +85,7 @@ h3:hover {
     bottom: 2.5rem;
 }
 
-.first-button:hover {
+.button-anim:hover {
     background: black;
     color: white;
     cursor: pointer;
@@ -118,6 +113,10 @@ li {
     font-size: 1rem
 }
 
+li:hover {
+    font-size: 1.05rem;
+}
+
 ul ul {
     position: absolute;
     display: none;
@@ -135,7 +134,7 @@ button {
     font-family: 'Nunito';
     background: white;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     border: 0.1rem solid #fff;
     border-radius: 1rem;
     padding-left: 0.3rem;
@@ -151,7 +150,7 @@ footer {
 }
 
 i {
-    color: black;
+    color: white;
     font-size: 1.4rem;
 }
 
@@ -169,7 +168,7 @@ footer i:hover {
 }
 
 .footer-image {
-    background-image: url(assets/img/amnesiac-1-wallpaper.jpg);
+    background-image: url(../assets/img/amnesiac-1-wallpaper.jpg);
     background-size: cover;
 	background-position: bottom;
 	height:16rem;
@@ -310,28 +309,24 @@ RESPONSIVE
 
 @media screen and (max-width: 767px) {  
     h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     h3 {
         font-size: 0.9rem;
     }
 
-    h3:hover {
-        font-size: 0.95rem;
-    }
-
     h4 {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     hr {
         height: 3rem;
-        background:url(assets/img/logoseparador1.png) no-repeat center;
+        background:url(../assets/img/logoseparador1.png) no-repeat center;
         border: none;
         margin-top: 10rem;
         margin-bottom: 10rem;
@@ -346,8 +341,8 @@ RESPONSIVE
         "section section section"
         "section section section"
         "footer footer footer";
-        grid-template-rows: 2.2rem 20rem 3rem 30rem 15rem 10rem; 
-        grid-template-columns: auto 15rem auto;
+        grid-template-rows: 3.2rem 20rem 3rem 30rem 15rem 10rem; 
+        grid-template-columns: auto 25rem auto;
         grid-column-gap: 0.5rem;
         grid-row-gap: 0;
     }
@@ -366,13 +361,6 @@ RESPONSIVE
         padding-top: 0.5rem;
     }
 
-    .flex-column-nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-top: 0.6rem;
-    }
-
     button {
         font-size: 1.3rem;
     }
@@ -381,12 +369,6 @@ RESPONSIVE
         padding: 0.2rem 0.2rem;
         width: 38rem;
         height: 24rem;
-    }
-
-    .container-fluid {
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     
     #margin-title {
@@ -411,7 +393,7 @@ RESPONSIVE
     }
 
     i {
-        color: black;
+        color: white;
         font-size: 1.3rem;
     }
     
@@ -442,111 +424,3 @@ RESPONSIVE
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
-
-/**
-web 2
-*/
-
-.grilla-1 {
-    display: grid;
-    grid-template-areas:
-    "nav nav nav"
-    "header header header"
-    "hr hr hr"
-    "section section section"
-    "section section section"
-    "footer footer footer";
-    grid-template-rows: 3.2rem 11rem 4.5rem 40rem 24rem 15rem; 
-    grid-template-columns: auto 50rem auto;
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0;
-}
-
-
-#margin-title-1 {
-    margin-top: 4rem;
-}
-
-#font-title {
-    font-size: 4rem;
-}
-
-#margin-title-2 {
-    margin-bottom: 2rem;
-}
-
-#margin-footer {
-    margin-top: 30rem;
-}
-
-.card {
-    display: flex;
-    height: 280px;
-    width: 200px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: -1rem 0 1.2rem rgb(238, 52, 39);
-    transition: 0.3s ease-out;
-  }
-
-  a {
-    cursor: pointer;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    transition: 0.3s ease-out;
-  }
-  
-  svg {
-    fill: none;
-    stroke-width: 2px;
-  }
-
-  
-  .stroke {
-    stroke: white;
-    stroke-dasharray: 360;
-    stroke-dashoffset: 360;
-    transition: 0.4s ease-out;
-  }
-  
-  
-  .card:hover .stroke {
-    stroke-dashoffset: 100;
-    transition: 0.6s ease-out;
-    position: absolute;
-    top: 50px;
-    left: calc(50% - 60px);
-  }
-
-  .card:hover .stroke {
-    stroke-dashoffset: 100;
-    transition: 0.6s ease-out;
-  }
-
-
-
-@media screen and (min-width: 769px) and (max-width: 992px) {  
-    #margin-footer {
-        margin-top: 50rem;
-    }
-}
-
-@media screen and (min-width: 577px) and (max-width: 767px) {  
-    #margin-footer {
-        margin-top: 95rem;
-    }
-}
-
-@media screen and (max-width: 576px) {  
-
-    #margin-footer {
-        margin-top: 95rem;
-    }
-
-    #margin-section-d {
-        padding-left: 15rem;
-    }
-}
-

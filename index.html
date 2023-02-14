@@ -15,12 +15,12 @@
 </head>
 <body>
     <div class="grilla-index">
-        <nav class="flex-nav sticky-top">
-            <div>
-                <a href="index.html"><img width="62" height="58" src="assets/img/logo-blanco.png" alt="logo"></a>
-            </div>
-            <div class="flex-nav-1 flex-column-nav container-fluid">
-                <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark bg-black sticky-top">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <a href="index.html"><img width="52" height="47.5" src="assets/img/logo-blanco.png" alt="logo"></a>
+                </div>
+                <div>
                     <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     &nbsp;
                     <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -31,25 +31,28 @@
                     &nbsp;
                     <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 </div>
-                <div class="container-fluid">
-                <ul class="nav justify-content-end">
-                    <a href="index.html"><h3>HOME &nbsp;</h3></a>
-                    <a href="discography.html"><h3>DISCOGRAPHY &nbsp;</h3></a>
-                    <li><a class="dropdown-toggle" role="button" data-bs-toggle="dropdown"><h3>BAND</h3></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="members.html"><h3>MEMBERS</h3></a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="history.html"><h3>HISTORY</h3></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <a href="tour.html"><h3>&nbsp;&nbsp;TOUR &nbsp;</h3></a>
-                    <a href="gallery.html"><h3>GALLERY &nbsp;</h3></a>
-                    <a href="contact.html"><h3>CONTACT</h3></a>
-                </ul>
-            </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="discography.html">DISCOGRAPHY</a></li>
+                        <li class="nav-item"><a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown">BAND</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="members.html">MEMBERS</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="history.html">HISTORY</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="tour.html">TOUR</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="gallery.html">GALLERY</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <header class="fondo-index">
@@ -57,14 +60,14 @@
                 <img src="assets/img/radiohead_2_wallpaper.jpg" alt="logo-fondo">
             </div>
             <div class="button-container">
-                <a href="members.html">
-                    <button class="first-button">About us</button>
-                </a>
-            </div>    
+                    <a href="members.html">
+                        <button class="button-anim">About us</button>
+                    </a>
+            </div>
         </header>
         <hr>
         <section>
-            <h1 class="row justify-content-center">BAND</h1>
+            <h1 class="row justify-content-center">RADIOHEAD BAND</h1>
             <div class="row justify-content-center">
                 <div class="div-box-img">
                     <p class="color-white p-box">Of all the alt-rock bands of the 90s, Radiohead is the band that doesn’t fit in any category. Art rock might be a label better suited for a band that always felt like the refined outsider of modern rock.

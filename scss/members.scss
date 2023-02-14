@@ -1,0 +1,18 @@
+.grilla-2 {
+    display: grid;
+    grid-template-areas:
+    "nav nav nav"
+    "header header header"
+    "hr hr hr"
+    "section section section"
+    "footer footer footer";
+    grid-template-rows: 3.2rem 10rem 5rem 65rem 15rem; 
+    grid-template-columns: auto 50rem auto;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0;
+}
+
+.box-carousel {
+    position: absolute;
+    top: 10px;
+}
