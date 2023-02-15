@@ -151,11 +151,17 @@ footer {
 
 i {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.margin-i {
+    margin-left: 2rem;
 }
 
 i:hover {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 footer i {
@@ -328,7 +334,7 @@ RESPONSIVE
         height: 3rem;
         background:url(../assets/img/logoseparador1.png) no-repeat center;
         border: none;
-        margin-top: 10rem;
+        margin-top: 11rem;
         margin-bottom: 10rem;
     }
 
@@ -341,19 +347,14 @@ RESPONSIVE
         "section section section"
         "section section section"
         "footer footer footer";
-        grid-template-rows: 3.2rem 20rem 3rem 30rem 15rem 10rem; 
+        grid-template-rows: 3.2rem 20rem 4rem 30rem 15rem 10rem; 
         grid-template-columns: auto 25rem auto;
-        grid-column-gap: 0.5rem;
+        grid-column-gap: 0.6rem;
         grid-row-gap: 0;
     }
 
-    i {
-        padding-left: 1rem;
-        font-size: 1.2rem;
-    }
-
     ul, li {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
     .flex-footer-links {
@@ -394,11 +395,17 @@ RESPONSIVE
 
     i {
         color: white;
-        font-size: 1.3rem;
+        margin-left: 2rem;
+        font-size: 2rem;
+        margin-top: 0.2rem;
+    }
+
+    .margin-i {
+        margin-left: 23rem;
     }
     
     i:hover {
-        font-size: 1.4rem;
+        font-size: 2.2rem;
     }
 
     footer i {
