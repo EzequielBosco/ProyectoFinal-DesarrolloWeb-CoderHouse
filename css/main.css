@@ -36,15 +36,12 @@ h3 {
   color: black; }
 
 .section-index {
-  width: 52rem; }
+  width: 55rem; }
   .section-index .div-box-img {
-    background-image: url(../assets/img/integrantes-2-wallpaper.jpg);
     background-size: cover;
     border: solid 1px white;
-    padding: 0.2rem 0.2rem;
     margin-bottom: 0.5rem;
-    width: 52rem;
-    height: 29rem;
+    height: auto;
     overflow: hidden; }
 
 .button-container {
