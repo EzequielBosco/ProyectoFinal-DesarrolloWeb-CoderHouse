@@ -1,16 +1,11 @@
-.grilla-1 {
-    display: grid;
-    grid-template-areas:
-    "nav nav nav"
-    "header header header"
-    "hr hr hr"
-    "section section section"
-    "section section section"
-    "footer footer footer";
-    grid-template-rows: 3.2rem 7rem 4.5rem 40rem 24rem 15rem; 
-    grid-template-columns: auto 50rem auto;
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0;
+#fondo-discography {
+  background-image: url(../assets/img/dibujo-radiohead-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height:20rem;
+  max-width: 100%;
+  position: relative
 }
 
 #margin-title-1 {
@@ -23,6 +18,10 @@
 
 #margin-footer {
     margin-top: 30rem;
+}
+
+iframe {
+  border: none;
 }
 
 .card {
