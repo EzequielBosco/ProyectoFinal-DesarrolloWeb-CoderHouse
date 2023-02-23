@@ -15,97 +15,101 @@
     <link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
-    <div class="grilla-index-3"> 
-        <nav class="navbar navbar-expand-md navbar-dark bg-black sticky-top">
-            <div class="d-flex container-fluid">
-                <div class="d-flex">
-                    <div>
-                        <a href="index.html"><img width="38" height="38" src="assets/img/logo-blanco.png" alt="logo"></a>
-                    </div>
-                    <div class="margin-i">
+    <nav class="navbar navbar-expand-md navbar-dark bg-black sticky-top">
+        <div class="container-fluid">
+            <div class="d-flex">
+                <a href="index.html"><img width="38" height="38" src="assets/img/logo-blanco.png" alt="logo"></a>
+                <div class="margin-i">
                     <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    &nbsp;
                     <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    &nbsp;
                     <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    &nbsp;
                     <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-                    &nbsp;
                     <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="menu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="discography.html">DISCOGRAPHY</a></li>
-                        <li class="nav-item"><a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown">BAND</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="members.html">MEMBERS</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="history.html">HISTORY</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" href="tour.html">TOUR</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="gallery.html">GALLERY</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
-                    </ul>
                 </div>
             </div>
-        </nav>
-        <header>
-
-        </header>
-        <section class="flex-title-nav">
-                <h1 class="flex-center">TOUR</h1>    
-        </section>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="discography.html">DISCOGRAPHY</a></li>
+                    <li class="nav-item"><a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown">BAND</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="members.html">MEMBERS</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="history.html">HISTORY</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="tour.html">TOUR</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">GALLERY</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="text-center">
+            <h1 class="mt-5">TOUR</h1>
+        </div>
         <hr>
-        <br>
-        <section>
-            <h1 class="title-index">RADIOHEAD</h1>
-            <h2 class="color-white flex-center">Past Dates | Upcoming Tour</h2>
-            <div class="flex-center">
-                <div class="color-white">
-                    <h2>15 MARCH 2023</h2>
-                    <p>Los Angeles, California</p>
-                    <p>Get tickets</p>
-                    <br>
-                    <h2>15 MARCH 2023</h2>
-                    <p>Los Angeles, California</p>
-                    <p>Get tickets</p>
-                    <br>
-                    <h2>15 MARCH 2023</h2>
-                    <p>Los Angeles, California</p>
-                    <p>Get tickets</p>
-                    <br>
-                    <h2>15 MARCH 2023</h2>
-                    <p>Los Angeles, California</p>
-                    <p>Get tickets</p>
+    </header>
+    <section>
+        <div class="container">
+            <div class="m-5" id="padding-tour-title">
+                <h1 class="row justify-content-start">RADIOHEAD</h1>
+                <h2 class="color-white"><button class="button-anim">Dates</button> | <button class="button-anim">Upcoming Tour</button></h2>
+            </div>
+            <div class="container text-center">
+                <div class="flex-card-tour">
+                    <div class="row justify-content-center">
+                        <table>
+                            <tr class="color-black card-tour m-5">
+                                <th><h2>15 MARCH 2023</h2></th>
+                                <th><h4>Los Angeles, California</h4></th>
+                                <th><button class="button-tour">Get tickets</button></th>
+                            </tr>
+                            <tr class="color-black card-tour m-5">
+                                <th><h2>15 MARCH 2023</h2></th>
+                                <th><h4>Los Angeles, California</h4></th>
+                                <th><button class="button-tour">Get tickets</button></th>
+                            </tr>
+                            <tr class="color-black card-tour m-5">
+                                <th><h2>15 MARCH 2023</h2></th>
+                                <th><h4>Los Angeles, California</h4></th>
+                                <th><button class="button-tour">Get tickets</button></th>
+                            </tr>
+                            <tr class="color-black card-tour m-5">
+                                <th><h2>15 MARCH 2023</h2></th>
+                                <th><h4>Los Angeles, California</h4></th>
+                                <th><button class="button-tour">Get tickets</button></th>
+                            </tr>
+                            <tr class="color-black card-tour m-5">
+                                <th><h2>15 MARCH 2023</h2></th>
+                                <th><h4>Los Angeles, California</h4></th>
+                                <th><button class="button-tour">Get tickets</button></th>
+                            </tr>
+                        </table>
+                    </div>
                 </div>   
             </div>
-        </section>
-        <br>
-        <hr class="margin-hr">
-        <br>
-        <footer class="footer-image">
-            <div>
-                <h3 class="color-white">RADIOHEAD</h3>
-                <fieldset class="flex-footer-icon">
-                    <legend><h4>SOCIAL MEDIA</h4></legend> 
-                        <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram" id="icon-size"></i></a>
-                        <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook" id="icon-size"></i></a>
-                        <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter" id="icon-size"></i></a>
-                        <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify" id="icon-size"></i></a>
-                        <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube" id="icon-size"></i></a>
-                </fieldset> 
-            </div>
-            <p>Copyright 2022 | RadioHead. All Rights Reserved. Designed by Ezequiel Bosco.</p>
-        </footer>
-    </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <footer class="footer-image">
+        <h4 class="color-black row justify-content-center">- SOCIAL MEDIA -</h4> 
+        <div class="flex-footer-icon">
+            <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+            <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p>Copyright 2022 | RadioHead. All Rights Reserved. Designed by Ezequiel Bosco.</p>
+    </footer>
 </body>
 </html>
