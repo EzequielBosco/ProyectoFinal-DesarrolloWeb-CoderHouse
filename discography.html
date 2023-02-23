@@ -15,52 +15,45 @@
     <link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
-    <div class="grilla-1">
-        <nav class="navbar navbar-expand-md navbar-dark bg-black sticky-top">
-            <div class="d-flex container-fluid">
-                <div class="d-flex">
-                    <div>
-                        <a href="index.html"><img width="38" height="38" src="assets/img/logo-blanco.png" alt="logo"></a>
-                    </div>
-                    <div class="margin-i">
+    <nav class="navbar navbar-expand-md navbar-dark bg-black sticky-top">
+        <div class="container-fluid">
+            <div class="d-flex">
+                <a href="index.html"><img width="38" height="38" src="assets/img/logo-blanco.png" alt="logo"></a>
+                <div class="margin-i">
                     <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    &nbsp;
                     <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    &nbsp;
                     <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    &nbsp;
                     <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-                    &nbsp;
                     <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="menu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="discography.html">DISCOGRAPHY</a></li>
-                        <li class="nav-item"><a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown">BAND</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="members.html">MEMBERS</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="history.html">HISTORY</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" href="tour.html">TOUR</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="gallery.html">GALLERY</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
-                    </ul>
                 </div>
             </div>
-        </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="discography.html">DISCOGRAPHY</a></li>
+                    <li class="nav-item"><a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown">BAND</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="members.html">MEMBERS</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="history.html">HISTORY</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="tour.html">TOUR</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">GALLERY</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
         <header>
-            <div class="container text-center" id="margin-title-1">
-                <h1><strong>DISCOGRAPHY</strong></h1>
+            <div class="container text-center">
+                <h1 class="mt-5"><strong>DISCOGRAPHY</strong></h1>
             </div>
             <div class="text-center">
                 <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank">
@@ -70,8 +63,8 @@
         </header>
         <hr>
         <section class="text-center">
-            <h2 id="margin-title-2">ALBUMS</h2>
-            <div class="container text-center" id="margin-section-d">
+            <h2 class="m-4">ALBUMS</h2>
+            <div class="container text-center p-4">
                 <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-5">
                     <div class="col">
                         <div class="card">
@@ -207,27 +200,26 @@
                     </div> 
                 </div>
             </div>
-            <div class="container text-center" id="margin-title-1">
+            <hr>
+            <div class="container text-center">
                 <h2>SONGS</h2>
-                <div class="container-fluid">
-                    <div>
-                        <iframe class="iframe-index" src="https://embed.spotify.com/?uri=spotify:artist:4Z8W4fKeB5YxbusRsdQVPb" title="Spotify"></iframe>
+                <div class="container mt-3">
+                    <div class="row justify-content-end">
+                        <iframe src="https://embed.spotify.com/?uri=spotify:artist:4Z8W4fKeB5YxbusRsdQVPb" title="Spotify"></iframe>
                     </div>       
                 </div>
             </div>
         </section>
-        <footer class="footer-image" id="margin-footer">
+        <footer class="footer-image">
             <h4 class="color-black row justify-content-center">- SOCIAL MEDIA -</h4> 
-            <div class="flex-footer-icon" id="padding-icon">
+            <div class="flex-footer-icon">
                 <a href="https://www.instagram.com/radiohead/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.facebook.com/radiohead" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://twitter.com/radiohead" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                 <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb" target="_blank"><i class="fa-brands fa-spotify"></i></a>
                 <a href="https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
-            <br>
             <p>Copyright 2022 | RadioHead. All Rights Reserved. Designed by Ezequiel Bosco.</p>
         </footer>
-    </div>
 </body>
 </html>

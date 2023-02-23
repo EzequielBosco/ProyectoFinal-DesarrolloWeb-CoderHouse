@@ -80,7 +80,7 @@ ul {
 li {
     width: 30;
     position:relative;
-    font-size: 1rem
+    font-size: 0.95rem
 }
 
 li:hover {
@@ -179,7 +179,7 @@ section {
 RESPONSIVE
 */
 
-@media screen and (max-width: 767px) {  
+@media screen and (max-width: 768px) {  
     h1 {
         font-size: 2rem;
     }
@@ -209,7 +209,6 @@ RESPONSIVE
     button {
         font-size: 1rem;
     }
-
     
     .button-container{
         text-align: center;
@@ -219,12 +218,12 @@ RESPONSIVE
 
     i {
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 0.2rem;
     }
     
     i:hover {
-        font-size: 2.2rem;
+        font-size: 1.7rem;
     }
 
     footer i {
