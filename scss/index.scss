@@ -17,6 +17,8 @@ hr {
     height: 5rem;
     background:url(../assets/img/logoseparador.png) no-repeat center;
     border: none;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 h1 {
@@ -154,7 +156,7 @@ footer i:hover {
 .flex-footer-icon {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-evenly;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -185,7 +187,7 @@ RESPONSIVE
     }
 
     h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     h3 {
@@ -214,7 +216,7 @@ RESPONSIVE
         text-align: center;
         position: relative;
         bottom: 1rem;
-}
+    }
 
     i {
         color: white;
@@ -241,6 +243,12 @@ RESPONSIVE
     }
 
     p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 576px) {  
+    h2 {
         font-size: 0.9rem;
     }
 }
