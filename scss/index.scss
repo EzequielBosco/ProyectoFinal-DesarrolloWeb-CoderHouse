@@ -14,39 +14,22 @@ body {
     background-size: cover;
 }
 
-.image-back-1 {
-    background-image: url(/assets/img/letras-vertical.jpg);
-    background-attachment: fixed;
-    background-size: repeat;
-}
-
-.image-back-2 {
-    background-image: url(/assets/img/integrantes-1-wallpaper.jpg);
+.image-back-gallery {
+    background-image: url(/assets/img/back-radiohead.png);
     background-attachment: fixed;
     background-size: cover;
 }
 
-.image-back-3 {
-    background-image: url(/assets/img/gallery-Radiohead.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.image-back-4 {
+.image-back-tour {
     background-image: url(/assets/img/show-radiohead.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
 
-.image-back-5 {
-    background-image: url(/assets/img/integrantes-1-wallpaper.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.image-back-6 {
+.image-back-contact {
     background-image: url(/assets/img/dibujo-radiohead-wallpaper.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 nav {
@@ -58,12 +41,12 @@ hr {
     height: 5rem;
     background:url(../assets/img/logoseparador.png) no-repeat center;
     border: none;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     margin-bottom: 1.5rem;
 }
 
 h1 {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     color: #ff192c;
 }
 
@@ -238,6 +221,10 @@ RESPONSIVE
     h4 {
         font-size: 0.8rem;
     }
+
+    h5 {
+        font-size: 0.8rem;
+    } 
 
     hr {
         height: 3rem;

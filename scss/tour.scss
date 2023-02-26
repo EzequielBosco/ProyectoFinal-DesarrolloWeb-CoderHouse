@@ -2,9 +2,10 @@
     height: 80px;
     width: 1000px;
     background-color: rgb(255, 255, 255);
-    border-radius: 50px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: -0.7rem 0 0.8rem rgb(238, 52, 39);
 }
 
 .card-tour:hover {
@@ -13,7 +14,6 @@
 }
 
 .button-tour {
-    font-family: 'Nunito';
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 1.4rem;
@@ -45,7 +45,6 @@ tr {
     display: block;
     margin: 5px;
 }
-
 
 @keyframes efecto-tour-button {
     0% {color:#ff192c}
@@ -81,8 +80,19 @@ tr {
 
 @media screen and (max-width: 574px) {  
     .card-tour {
+        margin-top: none;
         height: 80px;
         width: 270px;
+    }
+
+    #font-size-card {
+        font-size: 0.9rem;
+    }
+
+    tr {
+        padding-top: 1.2em;
+        padding: 1rem;
+
     }
 
     th {
@@ -91,10 +101,10 @@ tr {
     }
 
     #padding-tour-title {
-        padding-left: 2rem;
+        padding-left: 3.8rem;
     }
 
     .button-tour {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
