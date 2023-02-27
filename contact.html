@@ -61,37 +61,49 @@
     <section>
         <h2 class="text-center color-black"><b>Complete the form to contact us</b></h2>
         <br>
-        <div class="container">
-            <form class="flex-contact text-center">
-                <h4 class="color-white" aria-required="true">First name</h4> 
-                <input type="text" class="data-form" id="name" placeholder="Your Name"> 
-                <br>
-                <h4 class="color-white">Last name</h4>
-                <input type="text" id="lastname" placeholder="Your Lastname">
-                <br>
-                <h4 class="color-white">Email</h4> 
-                <input type="email" id="email" placeholder="name@example.com">
-                <br>
-                <h4 class="color-white">Message</h4>
-                <textarea id="message"></textarea>
-                <br>
-                <button class="button-anim" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog ">
-                      <div class="modal-content">
-                        <div class="modal-header text-dark">
-                          <h5 class="modal-title" id="exampleModalLabel">Thanks for contact</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-dark">
-                        <p>We respond as soon as possible!</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary  bg-dark text-light" data-bs-dismiss="modal">Close</button>
-                        </div>
-                      </div>
+        <div class="container p-2">
+            <form>
+                <div class="card-contact">
+                    <div class="form-group">
+                        <label for="name"><h4 class="color-white">First name</h4></label>
+                        <input type="text" class="form-control form-control-square" id="name" name="name" placeholder="Your name" aria-required="true">
                     </div>
-                  </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="email"><h4 class="color-white">Email</h4></label>
+                        <input type="email" class="form-control form-control-square" id="email" name="email" placeholder="name@example.com">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="lastname"><h4 class="color-white">Last name</h4></label>
+                        <input type="text" class="form-control form-control-square" id="lastname" name="lastname" placeholder="Your last name">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="message"><h4 class="color-white">Message</h4></label>
+                        <textarea class="form-control form-control-square" id="message" name="message"></textarea>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <button type="submit" class="button-anim" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog ">
+                        <div class="modal-content">
+                            <div class="modal-header text-dark">
+                                <h5 class="modal-title" id="exampleModalLabel">Thanks for contact</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-dark">
+                                <p>We respond as soon as possible!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary  bg-dark text-light" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
     </section>
