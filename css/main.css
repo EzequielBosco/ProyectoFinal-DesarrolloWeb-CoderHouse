@@ -206,7 +206,9 @@ RESPONSIVE
     margin-left: 5rem;
     margin-right: 5rem; }
   p {
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+  footer {
+    margin-top: 3rem; } }
 
 @media screen and (max-width: 576px) {
   h1 {
@@ -216,7 +218,9 @@ RESPONSIVE
   h3 {
     font-size: 0.8rem; }
   h4 {
-    font-size: 0.7; } }
+    font-size: 0.7; }
+  footer {
+    margin-top: 3rem; } }
 
 @keyframes efecto-button {
   0% {
@@ -298,7 +302,9 @@ svg {
 
 .box-carousel {
   position: relative;
-  margin-right: 0.1rem; }
+  margin-right: 0.1rem;
+  background-color: white;
+  padding: 1px; }
 
 .flex-card {
   display: flex;
@@ -430,6 +436,10 @@ tr {
 
 figure {
   box-shadow: -1rem 0 2rem #252525; }
+
+@media screen and (max-width: 576px) {
+  .image-back-gallery {
+    background-image: url(/assets/img/back-radiohead-1.jpg); } }
 
 form {
   margin: auto;

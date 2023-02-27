@@ -273,6 +273,10 @@ RESPONSIVE
     p {
         font-size: 0.9rem;
     }
+    
+    footer {
+        margin-top: 3rem;
+    }
 }
 
 @media screen and (max-width: 576px) {  
@@ -289,6 +293,10 @@ RESPONSIVE
 
     h4 {
         font-size: 0.7;
+    }
+
+    footer {
+        margin-top: 3rem;
     }
 }
 

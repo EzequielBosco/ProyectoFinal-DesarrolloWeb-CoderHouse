@@ -16,3 +16,9 @@
 figure	{
 	box-shadow: -1rem 0 2rem rgb(37, 37, 37);
 }
+
+@media screen and (max-width: 576px) {  
+	.image-back-gallery {
+		background-image: url(/assets/img/back-radiohead-1.jpg);
+	}
+}
